@@ -9,6 +9,7 @@ function App() {
         <p>Inicio do projeto Next Work</p>
         <p>Projeto para gestão de trabalhos para escolas/faculdades</p>
         <p>Andre-teste</p>
+        <p>Giovani-teste</p>
       </header>
     </div>
   );
