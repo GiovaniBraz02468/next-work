@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Inicio do projeto Next Work</p>
         <p>Projeto para gestão de trabalhos para escolas/faculdades</p>
+        <p>Andre-teste</p>
       </header>
     </div>
   );
