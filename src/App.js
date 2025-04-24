@@ -10,6 +10,7 @@ function App() {
         <p>Projeto para gestão de trabalhos para escolas/faculdades</p>
         <p>Andre-teste</p>
         <p>Giovani-teste</p>
+        <p>Gabriel-teste</p>
         <div>
           <p>Testando bootstrap css</p>
           <p>Botões:</p>
@@ -23,6 +24,7 @@ function App() {
           <button type="button" class="btn btn-dark">Dark</button>
 
           <p>Teste para reunião</p>
+
         </div>
       </header>
     </div>
