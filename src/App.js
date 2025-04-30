@@ -11,6 +11,7 @@ function App() {
         <p>Andre-teste</p>
         <p>Giovani-teste</p>
         <p>Gabriel-teste</p>
+        <p>Kaleb-Teste</p>
         <div>
           <p>Testando bootstrap css</p>
           <p>Botões:</p>
