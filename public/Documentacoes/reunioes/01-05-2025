@@ -1,0 +1,56 @@
+# Reunião: 01/05/2025
+
+**Conduzente:** Giovani Braz  
+**Participantes:** André Marcussi e Wellington Kaleb  
+
+---
+
+## Tema: Escolha do Back-End
+
+[⬅️ Voltar para o índice de reuniões](../Reunioes.md)
+
+### 🧩 Tópicos da Reunião
+- Opções e suas diferenças
+- Decisão final
+
+---
+
+## ⚙️ Opções e Suas Diferenças
+
+Foram analisadas duas opções viáveis para o back-end do sistema: **Supabase** e **C# (com bibliotecas auxiliares)**. Ambas oferecem funcionalidades robustas, como:
+
+- Back-end completo  
+- Modo SQL nativo  
+- Criação de tabelas e views  
+- Disponibilização automática de API  
+
+Entretanto, as diferenças entre elas foram os principais fatores de decisão:
+
+| Característica                  | Supabase                             | C# com bibliotecas                     |
+|----------------------------------|---------------------------------------|----------------------------------------|
+| **Custo**                        | Gratuito até determinado limite       | Licença paga a partir do início        |
+| **Configuração**                | Já vem pronto para uso, basta modelar o banco | Exige desenvolvimento completo do banco e da lógica |
+| **Flexibilidade**               | Possui limitações na versão gratuita  | Alta liberdade para customizações      |
+| **Tempo de desenvolvimento**    | Mais rápido para colocar no ar        | Maior tempo de implementação e manutenção |
+| **Curva de aprendizado**        | Mais acessível para todos da equipe   | Mais técnica e restrita a membros com conhecimento prévio |
+
+No Supabase, qualquer participante com noções de banco de dados pode contribuir. Já no C#, o desenvolvimento estaria limitado a dois membros mais experientes: Giovani Braz e Vinícius Leandro.
+
+---
+
+## ✅ Decisão Final
+
+Com a presença de 3 dos 5 integrantes (mais de 50%), a decisão foi tomada **por unanimidade** em favor do uso do **Supabase como back-end**.  
+
+Os principais motivos foram:
+- **Custo zero** em sua versão gratuita  
+- **Rapidez de implementação**  
+- Boa variedade de funcionalidades mesmo com algumas limitações  
+- Atende bem à proposta do projeto, cujo foco principal é o **aprendizado em React (JavaScript)**  
+
+Essa decisão visa permitir maior colaboração entre os membros e acelerar a entrega das primeiras versões do sistema.  
+Os dois participantes ausentes serão atualizados com todas as decisões e justificativas tomadas nesta reunião.
+
+---
+
+[⬅️ Voltar para o índice de reuniões](../Reunioes.md)
