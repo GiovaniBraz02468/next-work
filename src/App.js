@@ -1,14 +1,8 @@
-import logo from './logo.png';
-import { Login, Prelogin } from './components/pages/Login'
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
-function App() {
+export default function App() {
   return (
     <div>
-      <p>Página principal</p>
-      <Prelogin></Prelogin>
-      <Login></Login>
     </div>
   );
 }
-
-export default App;

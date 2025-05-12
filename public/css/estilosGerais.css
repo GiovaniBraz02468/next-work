@@ -1,0 +1,17 @@
+/*Arquivo com estilizações getais do sistema*/
+
+/*Botão laranja padrão do sistema*/
+.btn-laranja {
+    background-color: #E1632D;
+    color: white;
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 8px;
+    padding: 8px 13px 8px 13px;
+  }
+
+.btn-laranja:hover{
+    color: white;
+    background-color: #d8551d;
+}
+
