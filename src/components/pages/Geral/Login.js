@@ -1,9 +1,10 @@
 import logo from '../../../Logo_Full.webp';
 import React, { useState } from 'react';
 import styles from './Login.module.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
-
+  const navigate = useNavigate();
   const [isPasswordVisible, setIsPasswordVisible] = useState(false)
 
   const togglePasswordVisibility = () => {
@@ -52,7 +53,11 @@ export default function Login() {
           </div>
         </div>
         <div className='text-center'>
-          <button type="button" class="btn-laranja">Login</button>
+          <button onClick={() => navigate("/admhome")} type="button" class="btn-laranja">Adm home</button>
+          <button onClick={() => navigate("/admaluno")} type="button" class="btn-laranja">Adm aluno</button>
+          <button onClick={() => navigate("/admprofessor")} type="button" class="btn-laranja">adm professor</button>
+          <button onClick={() => navigate("/admperfil")} type="button" class="btn-laranja">adm perfil</button>
+          <button onClick={() => navigate("/admcurso")} type="button" class="btn-laranja">adm curso</button>
         </div>
         <div className={`${styles.divSenha} text-center`}>
           <p><a href='#'>Esqueci a senha</a></p>

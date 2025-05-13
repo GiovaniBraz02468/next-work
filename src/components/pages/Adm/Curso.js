@@ -1,9 +1,9 @@
 import Titulo from "../../layout/Titulo";
 
-export default function Alunos() {
+export default function Curso() {
     return (
         <>
-            <Titulo Titulo="Alunos"></Titulo>
+            <Titulo Titulo="Cursos"></Titulo>
         </>
     )
 }
