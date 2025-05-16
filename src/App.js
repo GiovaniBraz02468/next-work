@@ -8,6 +8,7 @@ import AdmAluno from './components/pages/Adm/Alunos'
 import AdmCurso from './components/pages/Adm/Curso'
 import AdmProfessor from './components/pages/Adm/Professor'
 import AdmPerfil from './components/pages/Adm/Perfil'
+import EsqueciSenha from './components/pages/Geral/EsqueciSenha';
 
 
 export default function App() {
@@ -20,6 +21,8 @@ export default function App() {
 
           {/* Telas sem container (Sem menu) */}
           <Route path='/' element={<Login></Login>}></Route>
+          <Route path='/esquecisenha' element={<EsqueciSenha></EsqueciSenha>}></Route>
+
 
           {/* Telas com container (Com menu) */}
           <Route element={<ContainerComMenu />}>

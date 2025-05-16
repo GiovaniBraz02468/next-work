@@ -54,13 +54,9 @@ export default function Login() {
         </div>
         <div className='text-center'>
           <button onClick={() => navigate("/admhome")} type="button" class="btn-laranja">Adm home</button>
-          <button onClick={() => navigate("/admaluno")} type="button" class="btn-laranja">Adm aluno</button>
-          <button onClick={() => navigate("/admprofessor")} type="button" class="btn-laranja">adm professor</button>
-          <button onClick={() => navigate("/admperfil")} type="button" class="btn-laranja">adm perfil</button>
-          <button onClick={() => navigate("/admcurso")} type="button" class="btn-laranja">adm curso</button>
         </div>
         <div className={`${styles.divSenha} text-center`}>
-          <p><a href='#'>Esqueci a senha</a></p>
+          <p><a href='/esquecisenha'>Esqueci a senha</a></p>
         </div>
       </div>
     </div>
