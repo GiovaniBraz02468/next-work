@@ -1,0 +1,25 @@
+.btn-editar {
+background-color: #FFA500;
+color: white;
+border: none;
+padding: 6px 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.btn-editar:hover {
+  background-color: #cc8400; /* mais escuro */
+}
+
+.btn-excluir {
+background-color: #E1632D;
+color: white;
+border: none;
+padding: 6px 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.btn-excluir:hover {
+  background-color: #b84e1f; /* mais escuro */
+}
